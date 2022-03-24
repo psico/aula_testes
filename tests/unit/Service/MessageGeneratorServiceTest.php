@@ -8,6 +8,6 @@ class MessageGeneratorServiceTest extends TestCase
         $service = new MessageGenerator();
         $result = $service->getHappyMessage();
 
-        $this->assertStringContainsString('seen', $result);
+        $this->assertStringContainsString('Great', $result);
     }
 }
