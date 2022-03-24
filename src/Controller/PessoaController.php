@@ -1,10 +1,9 @@
 <?php
 namespace App\Controller;
 
+use PessoaService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
-use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Flex\Response;
 
 class PessoaController extends AbstractController
 {
@@ -13,12 +12,12 @@ class PessoaController extends AbstractController
      */
     public function pessoa(): JsonResponse
     {
-        $service = new \MessageGenerator();
+        $service = new PessoaService();
 
         return $this->json([
             'nome' => 'João Gabriel',
             'idade' => '28',
-            'teste' => $service->getHappyMessage()
+            'peso' => $service->retornaPeso()
         ]);
     }
 }
