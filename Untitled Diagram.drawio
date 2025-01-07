@@ -25,8 +25,25 @@
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-10" value="PIX&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-7" target="fTIkMr9ofkkiDOPzr_Y9-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-7" target="fTIkMr9ofkkiDOPzr_Y9-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-7" target="fTIkMr9ofkkiDOPzr_Y9-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-35" value="Debito" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fTIkMr9ofkkiDOPzr_Y9-14">
+          <mxGeometry x="-0.0286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-7" target="fTIkMr9ofkkiDOPzr_Y9-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-36" value="Crédito" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fTIkMr9ofkkiDOPzr_Y9-34">
+          <mxGeometry x="0.3622" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-7" value="Debito, credito ou pix" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="545" width="80" height="80" as="geometry" />
@@ -40,35 +57,53 @@
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-11" value="Solicita QrCode para Onboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-13" target="fTIkMr9ofkkiDOPzr_Y9-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-13" value="Debito" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="555" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-15" target="fTIkMr9ofkkiDOPzr_Y9-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-15" value="Obter credenciais da Cielo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="860" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-17" target="fTIkMr9ofkkiDOPzr_Y9-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-17" value="Token do cartão (para obter dados do cartão)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1030" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="870" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-19" value="Realizar pagamento, utilizando API da Cielo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1190" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-21" target="fTIkMr9ofkkiDOPzr_Y9-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-21" value="Fazer dinheiro aparecer na conta do ente publico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1380" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="1181" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fTIkMr9ofkkiDOPzr_Y9-22" value="Aparecer na carteira da OnBoard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1550" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="1350" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-27" target="fTIkMr9ofkkiDOPzr_Y9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-27" value="Obter credenciais da Cielo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-29" target="fTIkMr9ofkkiDOPzr_Y9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-29" value="Token do cartão (para obter dados do cartão)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-30" value="Realizar pagamento, utilizando API da Cielo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fTIkMr9ofkkiDOPzr_Y9-32" target="fTIkMr9ofkkiDOPzr_Y9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-32" value="Fazer dinheiro aparecer na conta do ente publico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTIkMr9ofkkiDOPzr_Y9-33" value="Aparecer na carteira da OnBoard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1350" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
